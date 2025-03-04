@@ -42,7 +42,7 @@ function aging(a,b) {
   }
 
 }
-console.log(aging);
+console.log(aging(c,a,b));
 
 
 
