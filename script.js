@@ -30,12 +30,15 @@ let a = aging(18)
 let b = aging(0)
 
 function aging(a,b) {
-  if (aging>a) {
+  if (aging===a) {
     return "выпускаем"
-  }else if (a<b) {
-    return "выгоняем"
-  }else{
-    return "дебил"
+  }else if (a < b) {
+    return "ты чо  на минусе родилься дебил"
+  }else if (aging< a ) {
+    console.log("ты ешо маленкий по возросту и по росту ");
+    
+  }{
+    return "выгони"
   }
 
 }
