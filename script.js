@@ -48,9 +48,9 @@ function calculate(a, b) {
   alert(`${a} - ${b} = ${a - b}`);
   alert(`${a} * ${b} = ${a * b}`);
   if (b !== 0) {
-      console.log(`${a} / ${b} = ${a / b}`);
+      alert(`${a} / ${b} = ${a / b}`);
   } else {
-      console.log("Деление на 0 невозможно");
+      alert("Деление на 0 невозможно");
   }
   alert(`${a} ** ${b} = ${a ** b}`);
  alert(`${a} % ${b} = ${a % b}`);
@@ -60,8 +60,8 @@ function calculate(a, b) {
 let d = prompt("Введите число a:");
 let f = prompt("Введите число b:");
 
-num1 = Number(d); 
-num2 = Number(f);
+d = Number(d); 
+f = Number(f);
 
 console.log(Number);
 
